@@ -34,6 +34,9 @@ gem 'simple_form', github: 'heartcombo/simple_form'
 
 gem 'devise'
 
+# Pokemon TCG
+gem 'pokemon_tcg_sdk'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
