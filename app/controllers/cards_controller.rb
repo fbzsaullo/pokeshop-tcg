@@ -31,6 +31,6 @@ class CardsController < ApplicationController
   end
   private
   def card_params
-    params.require(:card).permit(:title, :description, :rare, :price)
+    params.require(:card).permit(:name, :type, :rarity, :price, :image)
   end
 end
