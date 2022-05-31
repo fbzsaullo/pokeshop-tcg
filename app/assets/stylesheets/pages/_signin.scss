@@ -1,0 +1,24 @@
+.vertical-align-container {
+  margin: 60px auto;
+  height: 60vh;
+}
+
+.auth-container {
+  width: 60vw;
+  height: 450px;
+  margin: 100px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.auth-form {
+  width: 50%;
+}
+.auth-splash {
+  width: 50%;
+  border-radius: 0 5px 5px 0;
+  background-image: url("https://assets.pokemon.com/assets//cms2/img/video-games/_tiles/pokemon-go/startup-screens/inline/10-full.jpg");
+  background-size: cover;
+  background-position: center;
+}

@@ -104,8 +104,8 @@ GEM
     erubi (1.10.0)
     execjs (2.7.0)
     ffi (1.15.5)
-    font-awesome-rails (4.7.0.8)
-      railties (>= 3.2, < 8.0)
+    font-awesome-sass (5.15.1)
+      sassc (>= 1.11)
     globalid (1.0.0)
       activesupport (>= 5.0)
     i18n (1.10.0)
@@ -255,7 +255,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   dotenv-rails
-  font-awesome-rails
+  font-awesome-sass
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pg (~> 1.1)
