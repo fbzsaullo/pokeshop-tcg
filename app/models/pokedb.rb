@@ -1,0 +1,2 @@
+class Pokedb < ApplicationRecord
+end
