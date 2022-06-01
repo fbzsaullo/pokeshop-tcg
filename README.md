@@ -1,1 +1,3 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+<h1 align="center">
+ <img src="https://res.cloudinary.com/fbzsaullo/image/upload/v1654087716/Pokeshop/Readme_banner_logo_zy5ulc.png" />
+</h1>
