@@ -1,0 +1,15 @@
+<div class="vertical-align-container">
+  <div class="auth-container d-flex justify-content-between">
+    <div class="auth-form p-3">
+  <h1>Create new offer</h1>
+    <%= simple_form_for @card do |f| %>
+      <%= f.input :name, collection: Card.all, label: 'Card name:', error: 'Please, choose the card name.' %>
+      <%= f.input :price, label: 'Price:', error: 'Please, input the price.' %>
+      <%= f.button :submit,  class: "btn btn-primary" %>
+    <% end %>
+    </div>
+  </div>
+    <div class="auth-splash">
+    </div>
+  </div>
+</div>
