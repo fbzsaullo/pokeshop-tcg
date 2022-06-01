@@ -15,7 +15,7 @@
       </div>
 
       <div class="card-info-price d-flex justify-content-between mt-3">
-          <small><strong>Seller:</strong> <%= @card.user.email %></small>
+          <small><strong>Seller:</strong> <%= @card.user.username %></small>
           <div class="row">
           <h2>US$ <%= @card.price %></h2>
             <% if @card.user == current_user %>
