@@ -2,96 +2,32 @@
 <div class="main-container">
   <h4 class="my-3">Last offers</h4>
   <div class="cards mb-5">
-    <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SWSHP/SWSHP_PT-BR_SWSH063.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
-        </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
-      </div>
-    </div>
-  <!---->
+    <% @cards.order(created_at: :desc).each do |card| %>
       <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SWSH3/SWSH3_PT-BR_19.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
+        <img src="<%= card.image %>" />
+        <div class="card-trip-infos">
+          <div>
+            <p><%= card.user.username %></p>
+            <h2><%= card.name %></h2>
+          </div>
+          <h2 class="card-trip-pricing">$ <%= card.price %> </h2>
         </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
       </div>
-    </div>
-  <!---->
-      <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SM1/SM1_PT-BR_80.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
-        </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
-      </div>
-    </div>
-  <!---->
-    <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SMP/SMP_PT-BR_SM35.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
-        </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
-      </div>
-    </div>
-    <!---->
+    <% end %>
   </div>
   <h4 class="my-3">All offers</h4>
   <div class="cards mb-5">
-    <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SWSH8/SWSH8_PT-BR_156.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title Here</h2>
-        </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
-      </div>
-    </div>
-    <!---->
+    <% @cards.each do |card| %>
       <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SWSH7/SWSH7_PT-BR_28.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
+        <img src="<%= card.image %>" />
+        <div class="card-trip-infos">
+          <div>
+            <p><%= card.user.username %></p>
+            <h2><%= card.name %></h2>
+          </div>
+          <h2 class="card-trip-pricing">$ <%= card.price %> </h2>
         </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
       </div>
-    </div>
-    <!---->
-      <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SWSHP/SWSHP_PT-BR_SWSH194.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
-        </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
-      </div>
-    </div>
-    <!---->
-    <div class="card-trip">
-      <img src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SWSHP/SWSHP_PT-BR_SWSH065.png" />
-      <div class="card-trip-infos">
-        <div>
-          <p>@owner_name</p>
-          <h2>Title here</h2>
-        </div>
-        <h2 class="card-trip-pricing">£99.99</h2>
-      </div>
-    </div>
-    <!---->
+    <% end %>
   </div>
 </div>
