@@ -27,6 +27,7 @@
           </div>
       </div>
         <button type="button" class="btn btn-primary btn-lg w-100 mt-3"><i class="fa-solid fa-bag-shopping"></i> Comprar</button>
+        <%= link_to 'Comprar', card_orders_path(@card), method: :post, class: "btn btn-primary btn-lg w-100 mt-3" %>
     </div>
     <div class="card-info mt-3 p-5">
     <h3>Descrição</h3>
