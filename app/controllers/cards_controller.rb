@@ -9,10 +9,17 @@ class CardsController < ApplicationController
 
   def new
     @card = Card.new
+    @pokedb = Pokedb.new
   end
 
   def create
     @card = Card.new(card_params)
+    db = Pokedb.find(params[:card][:name].to_i)
+    @card.name = db.name
+    @card.category = db.category
+    @card.rarity = db.rarity
+    @card.image = db.image
+    @card.user = current_user
     if @card.save
       redirect_to card_path(@card)
     else
@@ -39,6 +46,6 @@ class CardsController < ApplicationController
   private
 
   def card_params
-    params.require(:card).permit(:name, :type, :rarity, :price, :image)
+    params.require(:card).permit(:price)
   end
 end
