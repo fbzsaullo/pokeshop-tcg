@@ -1,0 +1,422 @@
+=> [[32m#<Pokemon::Card:0x000056000eb12e70[0m
+  @artist[32m=[0m[31m[1;31m"[0m[31mYusuke Ishikawa[1;31m"[0m[31m[0m,
+  @attacks[32m=[0m
+   [[32m#<Pokemon::Attack:0x000056000eb12ba0[0m
+     @converted_energy_cost[32m=[0m[1;34m1[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mDarkness[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mFeint Attack[1;31m"[0m[31m[0m,
+     @text[32m=[0m
+      [31m[1;31m"[0m[31mChoose 1 of your opponent's Pokémon. This attack does 20 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Pokemon::Attack:0x000056000eb12a88[0m
+     @converted_energy_cost[32m=[0m[1;34m3[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mDarkness[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mDoom News[1;31m"[0m[31m[0m,
+     @text[32m=[0m
+      [31m[1;31m"[0m[31mReturn all Energy cards attached to Absol G to your hand. The Defending Pokémon is Knocked Out at the end of your opponent's next turn.[1;31m"[0m[31m[0m[32m>[0m],
+  @cardmarket[32m=[0m
+   [32m#<Pokemon::Cardmarket:0x000056000eb11840[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::CardmarketPrices:0x000056000eb116d8[0m
+      @average_sell_price[32m=[0m[1;35m3.97[0m,
+      @avg1[32m=[0m[1;35m3.99[0m,
+      @avg30[32m=[0m[1;35m4.34[0m,
+      @avg7[32m=[0m[1;35m4.35[0m,
+      @german_pro_low[32m=[0m[1;36mnil[0m,
+      @low_price[32m=[0m[1;35m0.99[0m,
+      @low_price_ex_plus[32m=[0m[1;35m2.19[0m,
+      @reverse_holo_avg1[32m=[0m[1;35m5.0[0m,
+      @reverse_holo_avg30[32m=[0m[1;35m2.62[0m,
+      @reverse_holo_avg7[32m=[0m[1;35m3.72[0m,
+      @reverse_holo_low[32m=[0m[1;35m1.49[0m,
+      @reverse_holo_sell[32m=[0m[1;35m3.34[0m,
+      @reverse_holo_trend[32m=[0m[1;35m3.46[0m,
+      @suggested_price[32m=[0m[1;36mnil[0m,
+      @trend_price[32m=[0m[1;35m3.87[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/cardmarket/pl3-1[1;31m"[0m[31m[0m[32m>[0m,
+  @converted_retreat_cost[32m=[0m[1;34m1[0m,
+  @evolves_from[32m=[0m[1;36mnil[0m,
+  @evolves_to[32m=[0m[1;36mnil[0m,
+  @flavor_text[32m=[0m[1;36mnil[0m,
+  @hp[32m=[0m[31m[1;31m"[0m[31m70[1;31m"[0m[31m[0m,
+  @id[32m=[0m[31m[1;31m"[0m[31mpl3-1[1;31m"[0m[31m[0m,
+  @images[32m=[0m
+   [32m#<Pokemon::CardImages:0x000056000eb11340[0m
+    @large[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/pl3/1_hires.png[1;31m"[0m[31m[0m,
+    @small[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/pl3/1.png[1;31m"[0m[31m[0m[32m>[0m,
+  @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb11f70[0m @expanded[32m=[0m[1;36mnil[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+  @level[32m=[0m[31m[1;31m"[0m[31m59[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAbsol G[1;31m"[0m[31m[0m,
+  @national_pokedex_numbers[32m=[0m[[1;34m359[0m],
+  @number[32m=[0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  @rarity[32m=[0m[31m[1;31m"[0m[31mRare Holo[1;31m"[0m[31m[0m,
+  @regulation_mark[32m=[0m[1;36mnil[0m,
+  @resistances[32m=[0m[[32m#<Pokemon::Resistance:0x000056000eb126c8[0m @type[32m=[0m[31m[1;31m"[0m[31mPsychic[1;31m"[0m[31m[0m, @value[32m=[0m[31m[1;31m"[0m[31m-20[1;31m"[0m[31m[0m[32m>[0m],
+  @retreat_cost[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+  @rules[32m=[0m[1;36mnil[0m,
+  @set[32m=[0m
+   [32m#<Pokemon::Set:0x000056000eb12510[0m
+    @id[32m=[0m[31m[1;31m"[0m[31mpl3[1;31m"[0m[31m[0m,
+    @images[32m=[0m
+     [32m#<Pokemon::SetImages:0x000056000eb12150[0m
+      @logo[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/pl3/logo.png[1;31m"[0m[31m[0m,
+      @symbol[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/pl3/symbol.png[1;31m"[0m[31m[0m[32m>[0m,
+    @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb12358[0m @expanded[32m=[0m[1;36mnil[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+    @name[32m=[0m[31m[1;31m"[0m[31mSupreme Victors[1;31m"[0m[31m[0m,
+    @printed_total[32m=[0m[1;34m147[0m,
+    @ptcgo_code[32m=[0m[31m[1;31m"[0m[31mSV[1;31m"[0m[31m[0m,
+    @release_date[32m=[0m[31m[1;31m"[0m[31m2009/08/19[1;31m"[0m[31m[0m,
+    @series[32m=[0m[31m[1;31m"[0m[31mPlatinum[1;31m"[0m[31m[0m,
+    @total[32m=[0m[1;34m153[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2018/03/07 22:40:00[1;31m"[0m[31m[0m[32m>[0m,
+  @subtypes[32m=[0m[[31m[1;31m"[0m[31mBasic[1;31m"[0m[31m[0m],
+  @supertype[32m=[0m[31m[1;31m"[0m[31mPokémon[1;31m"[0m[31m[0m,
+  @tcgplayer[32m=[0m
+   [32m#<Pokemon::Tcgplayer:0x000056000eb11e58[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::TcgPlayerPrices:0x000056000eb11d18[0m
+      @holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb11c00[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m6.0[0m, @low[32m=[0m[1;35m2.76[0m, @market[32m=[0m[1;35m5.32[0m, @mid[32m=[0m[1;35m3.0[0m[32m>[0m,
+      @reverse_holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb11a98[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m4.98[0m, @low[32m=[0m[1;35m1.25[0m, @market[32m=[0m[1;35m4.98[0m, @mid[32m=[0m[1;35m2.86[0m[32m>[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/tcgplayer/pl3-1[1;31m"[0m[31m[0m[32m>[0m,
+  @types[32m=[0m[[31m[1;31m"[0m[31mDarkness[1;31m"[0m[31m[0m],
+  @weaknesses[32m=[0m[[32m#<Pokemon::Weakness:0x000056000eb12920[0m @type[32m=[0m[31m[1;31m"[0m[31mFighting[1;31m"[0m[31m[0m, @value[32m=[0m[31m[1;31m"[0m[31m×2[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+ [32m#<Pokemon::Card:0x000056000eb11278[0m
+  @abilities[32m=[0m
+   [[32m#<Pokemon::Ability:0x000056000eb11188[0m
+     @name[32m=[0m[31m[1;31m"[0m[31mReactive Protection[1;31m"[0m[31m[0m,
+     @text[32m=[0m
+      [31m[1;31m"[0m[31mAny damage done to Aerodactyl by attacks from your opponent's Pokémon is reduced by 10 for each React Energy card attached to Aerodactyl (after applying Weakness and Resistance).[1;31m"[0m[31m[0m,
+     @type[32m=[0m[31m[1;31m"[0m[31mPoké-Body[1;31m"[0m[31m[0m[32m>[0m],
+  @artist[32m=[0m[31m[1;31m"[0m[31mHajime Kusajima[1;31m"[0m[31m[0m,
+  @attacks[32m=[0m
+   [[32m#<Pokemon::Attack:0x000056000eb11070[0m
+     @converted_energy_cost[32m=[0m[1;34m1[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m10+[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mPower Blow[1;31m"[0m[31m[0m,
+     @text[32m=[0m[31m[1;31m"[0m[31mDoes 10 damage plus 10 more damage for each Energy attached to Aerodactyl.[1;31m"[0m[31m[0m[32m>[0m,
+    [32m#<Pokemon::Attack:0x000056000eb11048[0m
+     @converted_energy_cost[32m=[0m[1;34m3[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m40[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mSpeed Stroke[1;31m"[0m[31m[0m,
+     @text[32m=[0m
+      [31m[1;31m"[0m[31mDuring your opponent's next turn, prevent all effects, including damage, done to Aerodactyl by attacks from your opponent's Pokémon-ex.[1;31m"[0m[31m[0m[32m>[0m],
+  @cardmarket[32m=[0m
+   [32m#<Pokemon::Cardmarket:0x000056000eb10d28[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::CardmarketPrices:0x000056000eb10d00[0m
+      @average_sell_price[32m=[0m[1;35m12.49[0m,
+      @avg1[32m=[0m[1;35m9.95[0m,
+      @avg30[32m=[0m[1;35m9.41[0m,
+      @avg7[32m=[0m[1;35m12.76[0m,
+      @german_pro_low[32m=[0m[1;36mnil[0m,
+      @low_price[32m=[0m[1;35m0.8[0m,
+      @low_price_ex_plus[32m=[0m[1;35m4.5[0m,
+      @reverse_holo_avg1[32m=[0m[1;35m14.9[0m,
+      @reverse_holo_avg30[32m=[0m[1;35m9.43[0m,
+      @reverse_holo_avg7[32m=[0m[1;35m9.47[0m,
+      @reverse_holo_low[32m=[0m[1;35m2.5[0m,
+      @reverse_holo_sell[32m=[0m[1;35m14.9[0m,
+      @reverse_holo_trend[32m=[0m[1;35m13.0[0m,
+      @suggested_price[32m=[0m[1;36mnil[0m,
+      @trend_price[32m=[0m[1;35m14.04[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/cardmarket/ex12-1[1;31m"[0m[31m[0m[32m>[0m,
+  @converted_retreat_cost[32m=[0m[1;36mnil[0m,
+  @evolves_from[32m=[0m[31m[1;31m"[0m[31mMysterious Fossil[1;31m"[0m[31m[0m,
+  @evolves_to[32m=[0m[1;36mnil[0m,
+  @flavor_text[32m=[0m[1;36mnil[0m,
+  @hp[32m=[0m[31m[1;31m"[0m[31m70[1;31m"[0m[31m[0m,
+  @id[32m=[0m[31m[1;31m"[0m[31mex12-1[1;31m"[0m[31m[0m,
+  @images[32m=[0m
+   [32m#<Pokemon::CardImages:0x000056000eb10cd8[0m
+    @large[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex12/1_hires.png[1;31m"[0m[31m[0m,
+    @small[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex12/1.png[1;31m"[0m[31m[0m[32m>[0m,
+  @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb10eb8[0m @expanded[32m=[0m[1;36mnil[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+  @level[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAerodactyl[1;31m"[0m[31m[0m,
+  @national_pokedex_numbers[32m=[0m[[1;34m142[0m],
+  @number[32m=[0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  @rarity[32m=[0m[31m[1;31m"[0m[31mRare Holo[1;31m"[0m[31m[0m,
+  @regulation_mark[32m=[0m[1;36mnil[0m,
+  @resistances[32m=[0m[[32m#<Pokemon::Resistance:0x000056000eb10fa8[0m @type[32m=[0m[31m[1;31m"[0m[31mFighting[1;31m"[0m[31m[0m, @value[32m=[0m[31m[1;31m"[0m[31m-30[1;31m"[0m[31m[0m[32m>[0m],
+  @retreat_cost[32m=[0m[1;36mnil[0m,
+  @rules[32m=[0m[1;36mnil[0m,
+  @set[32m=[0m
+   [32m#<Pokemon::Set:0x000056000eb10f58[0m
+    @id[32m=[0m[31m[1;31m"[0m[31mex12[1;31m"[0m[31m[0m,
+    @images[32m=[0m
+     [32m#<Pokemon::SetImages:0x000056000eb10ee0[0m
+      @logo[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex12/logo.png[1;31m"[0m[31m[0m,
+      @symbol[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex12/symbol.png[1;31m"[0m[31m[0m[32m>[0m,
+    @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb10f08[0m @expanded[32m=[0m[1;36mnil[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+    @name[32m=[0m[31m[1;31m"[0m[31mLegend Maker[1;31m"[0m[31m[0m,
+    @printed_total[32m=[0m[1;34m92[0m,
+    @ptcgo_code[32m=[0m[31m[1;31m"[0m[31mLM[1;31m"[0m[31m[0m,
+    @release_date[32m=[0m[31m[1;31m"[0m[31m2006/02/01[1;31m"[0m[31m[0m,
+    @series[32m=[0m[31m[1;31m"[0m[31mEX[1;31m"[0m[31m[0m,
+    @total[32m=[0m[1;34m93[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2018/03/04 10:35:00[1;31m"[0m[31m[0m[32m>[0m,
+  @subtypes[32m=[0m[[31m[1;31m"[0m[31mStage 1[1;31m"[0m[31m[0m],
+  @supertype[32m=[0m[31m[1;31m"[0m[31mPokémon[1;31m"[0m[31m[0m,
+  @tcgplayer[32m=[0m
+   [32m#<Pokemon::Tcgplayer:0x000056000eb10e90[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::TcgPlayerPrices:0x000056000eb10df0[0m
+      @holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10d78[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m19.99[0m, @low[32m=[0m[1;35m8.0[0m, @market[32m=[0m[1;35m12.0[0m, @mid[32m=[0m[1;35m12.18[0m[32m>[0m,
+      @reverse_holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10d50[0m
+        @direct[32m=[0m[1;36mnil[0m,
+        @high[32m=[0m[1;35m40.96[0m,
+        @low[32m=[0m[1;35m14.5[0m,
+        @market[32m=[0m[1;35m23.72[0m,
+        @mid[32m=[0m[1;35m24.99[0m[32m>[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/tcgplayer/ex12-1[1;31m"[0m[31m[0m[32m>[0m,
+  @types[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+  @weaknesses[32m=[0m[[32m#<Pokemon::Weakness:0x000056000eb10ff8[0m @type[32m=[0m[31m[1;31m"[0m[31mLightning[1;31m"[0m[31m[0m, @value[32m=[0m[31m[1;31m"[0m[31m×2[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+ [32m#<Pokemon::Card:0x000056000eb10cb0[0m
+  @artist[32m=[0m[31m[1;31m"[0m[31mMidori Harada[1;31m"[0m[31m[0m,
+  @attacks[32m=[0m
+   [[32m#<Pokemon::Attack:0x000056000eb10c38[0m
+     @converted_energy_cost[32m=[0m[1;34m1[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mGrass[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mMultiply[1;31m"[0m[31m[0m,
+     @text[32m=[0m[31m[1;31m"[0m[31mSearch your deck for Weedle and put it onto your Bench. Shuffle your deck afterward.[1;31m"[0m[31m[0m[32m>[0m],
+  @cardmarket[32m=[0m
+   [32m#<Pokemon::Cardmarket:0x000056000eb10a08[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::CardmarketPrices:0x000056000eb109e0[0m
+      @average_sell_price[32m=[0m[1;35m0.11[0m,
+      @avg1[32m=[0m[1;35m0.08[0m,
+      @avg30[32m=[0m[1;35m0.09[0m,
+      @avg7[32m=[0m[1;35m0.1[0m,
+      @german_pro_low[32m=[0m[1;36mnil[0m,
+      @low_price[32m=[0m[1;35m0.02[0m,
+      @low_price_ex_plus[32m=[0m[1;35m0.02[0m,
+      @reverse_holo_avg1[32m=[0m[1;35m0.5[0m,
+      @reverse_holo_avg30[32m=[0m[1;35m0.29[0m,
+      @reverse_holo_avg7[32m=[0m[1;35m0.39[0m,
+      @reverse_holo_low[32m=[0m[1;35m0.15[0m,
+      @reverse_holo_sell[32m=[0m[1;36mnil[0m,
+      @reverse_holo_trend[32m=[0m[1;35m0.4[0m,
+      @suggested_price[32m=[0m[1;36mnil[0m,
+      @trend_price[32m=[0m[1;35m0.08[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/cardmarket/xy5-1[1;31m"[0m[31m[0m[32m>[0m,
+  @converted_retreat_cost[32m=[0m[1;34m1[0m,
+  @evolves_from[32m=[0m[1;36mnil[0m,
+  @evolves_to[32m=[0m[[31m[1;31m"[0m[31mKakuna[1;31m"[0m[31m[0m],
+  @flavor_text[32m=[0m[31m[1;31m"[0m[31mIts poison stinger is very powerful. Its bright-colored body is intended to warn off its enemies.[1;31m"[0m[31m[0m,
+  @hp[32m=[0m[31m[1;31m"[0m[31m50[1;31m"[0m[31m[0m,
+  @id[32m=[0m[31m[1;31m"[0m[31mxy5-1[1;31m"[0m[31m[0m,
+  @images[32m=[0m
+   [32m#<Pokemon::CardImages:0x000056000eb109b8[0m
+    @large[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/xy5/1_hires.png[1;31m"[0m[31m[0m,
+    @small[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/xy5/1.png[1;31m"[0m[31m[0m[32m>[0m,
+  @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb10b48[0m @expanded[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+  @level[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mWeedle[1;31m"[0m[31m[0m,
+  @national_pokedex_numbers[32m=[0m[[1;34m13[0m],
+  @number[32m=[0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  @rarity[32m=[0m[31m[1;31m"[0m[31mCommon[1;31m"[0m[31m[0m,
+  @regulation_mark[32m=[0m[1;36mnil[0m,
+  @retreat_cost[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+  @rules[32m=[0m[1;36mnil[0m,
+  @set[32m=[0m
+   [32m#<Pokemon::Set:0x000056000eb10bc0[0m
+    @id[32m=[0m[31m[1;31m"[0m[31mxy5[1;31m"[0m[31m[0m,
+    @images[32m=[0m
+     [32m#<Pokemon::SetImages:0x000056000eb10b70[0m
+      @logo[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/xy5/logo.png[1;31m"[0m[31m[0m,
+      @symbol[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/xy5/symbol.png[1;31m"[0m[31m[0m[32m>[0m,
+    @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb10b98[0m @expanded[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+    @name[32m=[0m[31m[1;31m"[0m[31mPrimal Clash[1;31m"[0m[31m[0m,
+    @printed_total[32m=[0m[1;34m160[0m,
+    @ptcgo_code[32m=[0m[31m[1;31m"[0m[31mPRC[1;31m"[0m[31m[0m,
+    @release_date[32m=[0m[31m[1;31m"[0m[31m2015/02/04[1;31m"[0m[31m[0m,
+    @series[32m=[0m[31m[1;31m"[0m[31mXY[1;31m"[0m[31m[0m,
+    @total[32m=[0m[1;34m164[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2020/05/01 16:06:00[1;31m"[0m[31m[0m[32m>[0m,
+  @subtypes[32m=[0m[[31m[1;31m"[0m[31mBasic[1;31m"[0m[31m[0m],
+  @supertype[32m=[0m[31m[1;31m"[0m[31mPokémon[1;31m"[0m[31m[0m,
+  @tcgplayer[32m=[0m
+   [32m#<Pokemon::Tcgplayer:0x000056000eb10b20[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::TcgPlayerPrices:0x000056000eb10af8[0m
+      @normal[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10a80[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m1.0[0m, @low[32m=[0m[1;35m0.08[0m, @market[32m=[0m[1;35m0.17[0m, @mid[32m=[0m[1;35m0.23[0m[32m>[0m,
+      @reverse_holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10a30[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m1.95[0m, @low[32m=[0m[1;35m0.2[0m, @market[32m=[0m[1;35m0.28[0m, @mid[32m=[0m[1;35m0.46[0m[32m>[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/tcgplayer/xy5-1[1;31m"[0m[31m[0m[32m>[0m,
+  @types[32m=[0m[[31m[1;31m"[0m[31mGrass[1;31m"[0m[31m[0m],
+  @weaknesses[32m=[0m[[32m#<Pokemon::Weakness:0x000056000eb10be8[0m @type[32m=[0m[31m[1;31m"[0m[31mFire[1;31m"[0m[31m[0m, @value[32m=[0m[31m[1;31m"[0m[31m×2[1;31m"[0m[31m[0m[32m>[0m][32m>[0m,
+ [32m#<Pokemon::Card:0x000056000eb10990[0m
+  @artist[32m=[0m[31m[1;31m"[0m[31mSekio[1;31m"[0m[31m[0m,
+  @attacks[32m=[0m
+   [[32m#<Pokemon::Attack:0x000056000eb10940[0m
+     @converted_energy_cost[32m=[0m[1;34m1[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mGrass[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m20[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mSurprise Attack[1;31m"[0m[31m[0m,
+     @text[32m=[0m[31m[1;31m"[0m[31mFlip a coin. If tails, this attack does nothing.[1;31m"[0m[31m[0m[32m>[0m],
+  @cardmarket[32m=[0m
+   [32m#<Pokemon::Cardmarket:0x000056000eb107d8[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::CardmarketPrices:0x000056000eb107b0[0m
+      @average_sell_price[32m=[0m[1;35m1.25[0m,
+      @avg1[32m=[0m[1;35m2.0[0m,
+      @avg30[32m=[0m[1;35m1.83[0m,
+      @avg7[32m=[0m[1;35m1.65[0m,
+      @german_pro_low[32m=[0m[1;36mnil[0m,
+      @low_price[32m=[0m[1;35m0.45[0m,
+      @low_price_ex_plus[32m=[0m[1;35m0.95[0m,
+      @reverse_holo_avg1[32m=[0m[1;35m0.5[0m,
+      @reverse_holo_avg30[32m=[0m[1;35m1.37[0m,
+      @reverse_holo_avg7[32m=[0m[1;35m1.71[0m,
+      @reverse_holo_low[32m=[0m[1;36mnil[0m,
+      @reverse_holo_sell[32m=[0m[1;36mnil[0m,
+      @reverse_holo_trend[32m=[0m[1;35m1.71[0m,
+      @suggested_price[32m=[0m[1;36mnil[0m,
+      @trend_price[32m=[0m[1;35m1.62[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/cardmarket/mcd19-1[1;31m"[0m[31m[0m[32m>[0m,
+  @converted_retreat_cost[32m=[0m[1;34m1[0m,
+  @evolves_from[32m=[0m[1;36mnil[0m,
+  @evolves_to[32m=[0m[[31m[1;31m"[0m[31mMetapod[1;31m"[0m[31m[0m],
+  @flavor_text[32m=[0m[1;36mnil[0m,
+  @hp[32m=[0m[31m[1;31m"[0m[31m50[1;31m"[0m[31m[0m,
+  @id[32m=[0m[31m[1;31m"[0m[31mmcd19-1[1;31m"[0m[31m[0m,
+  @images[32m=[0m
+   [32m#<Pokemon::CardImages:0x000056000eb10788[0m
+    @large[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/mcd19/1_hires.png[1;31m"[0m[31m[0m,
+    @small[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/mcd19/1.png[1;31m"[0m[31m[0m[32m>[0m,
+  @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb108a0[0m @expanded[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+  @level[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCaterpie[1;31m"[0m[31m[0m,
+  @national_pokedex_numbers[32m=[0m[[1;34m10[0m],
+  @number[32m=[0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  @rarity[32m=[0m[31m[1;31m"[0m[31mPromo[1;31m"[0m[31m[0m,
+  @regulation_mark[32m=[0m[1;36mnil[0m,
+  @retreat_cost[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+  @rules[32m=[0m[1;36mnil[0m,
+  @set[32m=[0m
+   [32m#<Pokemon::Set:0x000056000eb10918[0m
+    @id[32m=[0m[31m[1;31m"[0m[31mmcd19[1;31m"[0m[31m[0m,
+    @images[32m=[0m
+     [32m#<Pokemon::SetImages:0x000056000eb108c8[0m
+      @logo[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/mcd19/logo.png[1;31m"[0m[31m[0m,
+      @symbol[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/mcd19/symbol.png[1;31m"[0m[31m[0m[32m>[0m,
+    @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb108f0[0m @expanded[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+    @name[32m=[0m[31m[1;31m"[0m[31mMcDonald's Collection 2019[1;31m"[0m[31m[0m,
+    @printed_total[32m=[0m[1;34m12[0m,
+    @ptcgo_code[32m=[0m[1;36mnil[0m,
+    @release_date[32m=[0m[31m[1;31m"[0m[31m2019/10/15[1;31m"[0m[31m[0m,
+    @series[32m=[0m[31m[1;31m"[0m[31mOther[1;31m"[0m[31m[0m,
+    @total[32m=[0m[1;34m12[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2021/09/01 05:37:00[1;31m"[0m[31m[0m[32m>[0m,
+  @subtypes[32m=[0m[[31m[1;31m"[0m[31mBasic[1;31m"[0m[31m[0m],
+  @supertype[32m=[0m[31m[1;31m"[0m[31mPokémon[1;31m"[0m[31m[0m,
+  @tcgplayer[32m=[0m
+   [32m#<Pokemon::Tcgplayer:0x000056000eb10878[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::TcgPlayerPrices:0x000056000eb10850[0m
+      @holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10800[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m11.99[0m, @low[32m=[0m[1;35m5.93[0m, @market[32m=[0m[1;35m10.44[0m, @mid[32m=[0m[1;35m9.88[0m[32m>[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/tcgplayer/mcd19-1[1;31m"[0m[31m[0m[32m>[0m,
+  @types[32m=[0m[[31m[1;31m"[0m[31mGrass[1;31m"[0m[31m[0m][32m>[0m,
+ [32m#<Pokemon::Card:0x000056000eb10760[0m
+  @abilities[32m=[0m
+   [[32m#<Pokemon::Ability:0x000056000eb10710[0m
+     @name[32m=[0m[31m[1;31m"[0m[31mFroth[1;31m"[0m[31m[0m,
+     @text[32m=[0m
+      [31m[1;31m"[0m[31mOnce during your turn, when you play Azumarill from your hand to evolve 1 of your Active Pokémon, you may use this power. Each Defending Pokémon is now Paralyzed.[1;31m"[0m[31m[0m,
+     @type[32m=[0m[31m[1;31m"[0m[31mPoké-Power[1;31m"[0m[31m[0m[32m>[0m],
+  @artist[32m=[0m[31m[1;31m"[0m[31mSumiyoshi Kizuki[1;31m"[0m[31m[0m,
+  @attacks[32m=[0m
+   [[32m#<Pokemon::Attack:0x000056000eb106c0[0m
+     @converted_energy_cost[32m=[0m[1;34m2[0m,
+     @cost[32m=[0m[[31m[1;31m"[0m[31mWater[1;31m"[0m[31m[0m, [31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+     @damage[32m=[0m[31m[1;31m"[0m[31m20+[1;31m"[0m[31m[0m,
+     @name[32m=[0m[31m[1;31m"[0m[31mWater Punch[1;31m"[0m[31m[0m,
+     @text[32m=[0m
+      [31m[1;31m"[0m[31mFlip a coin for each Water Energy attached to Azumarill. This attack does 20 damage plus 20 more damage for each heads.[1;31m"[0m[31m[0m[32m>[0m],
+  @cardmarket[32m=[0m
+   [32m#<Pokemon::Cardmarket:0x000056000eb104e0[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::CardmarketPrices:0x000056000eb104b8[0m
+      @average_sell_price[32m=[0m[1;35m4.0[0m,
+      @avg1[32m=[0m[1;35m2.0[0m,
+      @avg30[32m=[0m[1;35m3.79[0m,
+      @avg7[32m=[0m[1;35m4.14[0m,
+      @german_pro_low[32m=[0m[1;36mnil[0m,
+      @low_price[32m=[0m[1;35m0.3[0m,
+      @low_price_ex_plus[32m=[0m[1;35m0.75[0m,
+      @reverse_holo_avg1[32m=[0m[1;35m5.0[0m,
+      @reverse_holo_avg30[32m=[0m[1;35m5.03[0m,
+      @reverse_holo_avg7[32m=[0m[1;35m10.43[0m,
+      @reverse_holo_low[32m=[0m[1;35m6.98[0m,
+      @reverse_holo_sell[32m=[0m[1;36mnil[0m,
+      @reverse_holo_trend[32m=[0m[1;35m17.54[0m,
+      @suggested_price[32m=[0m[1;36mnil[0m,
+      @trend_price[32m=[0m[1;35m3.06[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/cardmarket/ex7-1[1;31m"[0m[31m[0m[32m>[0m,
+  @converted_retreat_cost[32m=[0m[1;34m1[0m,
+  @evolves_from[32m=[0m[31m[1;31m"[0m[31mMarill[1;31m"[0m[31m[0m,
+  @evolves_to[32m=[0m[1;36mnil[0m,
+  @flavor_text[32m=[0m[1;36mnil[0m,
+  @hp[32m=[0m[31m[1;31m"[0m[31m80[1;31m"[0m[31m[0m,
+  @id[32m=[0m[31m[1;31m"[0m[31mex7-1[1;31m"[0m[31m[0m,
+  @images[32m=[0m
+   [32m#<Pokemon::CardImages:0x000056000eb10490[0m
+    @large[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex7/1_hires.png[1;31m"[0m[31m[0m,
+    @small[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex7/1.png[1;31m"[0m[31m[0m[32m>[0m,
+  @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb105d0[0m @expanded[32m=[0m[1;36mnil[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+  @level[32m=[0m[1;36mnil[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAzumarill[1;31m"[0m[31m[0m,
+  @national_pokedex_numbers[32m=[0m[[1;34m184[0m],
+  @number[32m=[0m[31m[1;31m"[0m[31m1[1;31m"[0m[31m[0m,
+  @rarity[32m=[0m[31m[1;31m"[0m[31mRare Holo[1;31m"[0m[31m[0m,
+  @regulation_mark[32m=[0m[1;36mnil[0m,
+  @retreat_cost[32m=[0m[[31m[1;31m"[0m[31mColorless[1;31m"[0m[31m[0m],
+  @rules[32m=[0m[1;36mnil[0m,
+  @set[32m=[0m
+   [32m#<Pokemon::Set:0x000056000eb10648[0m
+    @id[32m=[0m[31m[1;31m"[0m[31mex7[1;31m"[0m[31m[0m,
+    @images[32m=[0m
+     [32m#<Pokemon::SetImages:0x000056000eb105f8[0m
+      @logo[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex7/logo.png[1;31m"[0m[31m[0m,
+      @symbol[32m=[0m[31m[1;31m"[0m[31mhttps://images.pokemontcg.io/ex7/symbol.png[1;31m"[0m[31m[0m[32m>[0m,
+    @legalities[32m=[0m[32m#<Pokemon::Legalities:0x000056000eb10620[0m @expanded[32m=[0m[1;36mnil[0m, @standard[32m=[0m[1;36mnil[0m, @unlimited[32m=[0m[31m[1;31m"[0m[31mLegal[1;31m"[0m[31m[0m[32m>[0m,
+    @name[32m=[0m[31m[1;31m"[0m[31mTeam Rocket Returns[1;31m"[0m[31m[0m,
+    @printed_total[32m=[0m[1;34m109[0m,
+    @ptcgo_code[32m=[0m[31m[1;31m"[0m[31mTRR[1;31m"[0m[31m[0m,
+    @release_date[32m=[0m[31m[1;31m"[0m[31m2004/11/01[1;31m"[0m[31m[0m,
+    @series[32m=[0m[31m[1;31m"[0m[31mEX[1;31m"[0m[31m[0m,
+    @total[32m=[0m[1;34m111[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2019/01/28 16:44:00[1;31m"[0m[31m[0m[32m>[0m,
+  @subtypes[32m=[0m[[31m[1;31m"[0m[31mStage 1[1;31m"[0m[31m[0m],
+  @supertype[32m=[0m[31m[1;31m"[0m[31mPokémon[1;31m"[0m[31m[0m,
+  @tcgplayer[32m=[0m
+   [32m#<Pokemon::Tcgplayer:0x000056000eb105a8[0m
+    @prices[32m=[0m
+     [32m#<Pokemon::TcgPlayerPrices:0x000056000eb10580[0m
+      @holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10530[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m39.99[0m, @low[32m=[0m[1;35m7.64[0m, @market[32m=[0m[1;35m14.76[0m, @mid[32m=[0m[1;35m9.0[0m[32m>[0m,
+      @reverse_holofoil[32m=[0m
+       [32m#<Pokemon::TcgPlayerPriceValues:0x000056000eb10508[0m @direct[32m=[0m[1;36mnil[0m, @high[32m=[0m[1;35m22.36[0m, @low[32m=[0m[1;35m7.0[0m, @market[32m=[0m[1;35m22.99[0m, @mid[32m=[0m[1;35m13.0[0m[32m>[0m[32m>[0m,
+    @updated_at[32m=[0m[31m[1;31m"[0m[31m2022/05/31[1;31m"[0m[31m[0m,
+    @url[32m=[0m[31m[1;31m"[0m[31mhttps://prices.pokemontcg.io/tcgplayer/ex7-1[1;31m"[0m[31m[0m[32m>[0m,
+  @types[32m=[0m[[31m[1;31m"[0m[31mWater[1;31m"[0m[31m[0m],
+  @weaknesses[32m=[0m[[32m#<Pokemon::Weakness:0x000056000eb10670[0m @type[32m=[0m[31m[1;31m"[0m[31mLightning[1;31m"[0m[31m[0m, @value[32m=[0m[31m[1;31m"[0m[31m×2[1;31m"[0m[31m[0m[32m>[0m][32m>[0m]
