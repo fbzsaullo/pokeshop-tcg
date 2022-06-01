@@ -1,33 +1,41 @@
 <%= render "shared/banner" %>
 <div class="main-container">
+
   <h4 class="my-3">Last offers</h4>
+
   <div class="cards mb-5">
-    <% @cards.order(created_at: :desc).each do |card| %>
-      <div class="card-trip">
-        <img src="<%= card.image %>" />
-        <div class="card-trip-infos">
-          <div>
-            <p><%= card.user.username %></p>
-            <h2><%= card.name %></h2>
+    <% @cards.order(created_at: :desc).first(4).each do |card| %>
+      <%= link_to card_path(card), class: "card-link" do %>
+        <div class="card-trip">
+          <img src="<%= card.image %>" />
+          <div class="card-trip-infos">
+            <div>
+              <p><%= card.user.username %></p>
+              <h2><%= card.name %></h2>
+            </div>
+            <h2 class="card-trip-pricing">$ <%= card.price %> </h2>
           </div>
-          <h2 class="card-trip-pricing">$ <%= card.price %> </h2>
         </div>
-      </div>
+      <% end %>
     <% end %>
   </div>
+
   <h4 class="my-3">All offers</h4>
+
   <div class="cards mb-5">
     <% @cards.each do |card| %>
-      <div class="card-trip">
-        <img src="<%= card.image %>" />
-        <div class="card-trip-infos">
-          <div>
-            <p><%= card.user.username %></p>
-            <h2><%= card.name %></h2>
+      <%= link_to card_path(card), class: "card-link" do %>
+        <div class="card-trip">
+          <img src="<%= card.image %>" />
+          <div class="card-trip-infos">
+            <div>
+              <p><%= card.user.username %></p>
+              <h2><%= card.name %></h2>
+            </div>
+            <h2 class="card-trip-pricing">$ <%= card.price %> </h2>
           </div>
-          <h2 class="card-trip-pricing">$ <%= card.price %> </h2>
         </div>
-      </div>
+      <% end %>
     <% end %>
   </div>
 </div>

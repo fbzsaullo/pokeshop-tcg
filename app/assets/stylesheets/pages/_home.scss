@@ -4,3 +4,11 @@
   width: 75vw;
   margin: 20px auto;
 }
+
+.card-link {
+  text-decoration: none !important;
+  color: black;
+  :hover {
+    color: black;
+  }
+}
