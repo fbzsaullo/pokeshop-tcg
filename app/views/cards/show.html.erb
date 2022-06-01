@@ -1,27 +1,27 @@
 <div class="breadcrumb">
-<small><span style="color: gray;">Home ></span> Weedle</small>
+<small><span style="color: gray;">Home ></span> <%= @card.name %></small>
 </div>
 <div class="container-card-show">
   <div class="card-show">
-    <img src="https://images.pokemontcg.io/xy5/1_hires.png" alt="Weedle">
+    <img src=" <%= @card.image %>" alt=" <%= @card.name %> ">
   </div>
   <div>
     <div class="card-info p-5">
 
       <div class="card-info-header border-bottom">
-        <h1>Weedle</h1>
-        <p><strong>Type:</strong> Grass</p>
-        <p><strong>Rarity:</strong> Common</p>
+        <h1><%= @card.name %></h1>
+        <p><strong>Type:</strong> <%= @card.category %></p>
+        <p><strong>Rarity:</strong> <%= @card.rarity %></p>
       </div>
       <div class="card-info-price d-flex justify-content-between mt-3">
-          <small><strong>Seller:</strong> @sellerName</small>
-          <h2>US$ 9.99</h2>
+          <small><strong>Seller:</strong> <%= @card.user.email %></small>
+          <h2>US$ <%= @card.price %></h2>
       </div>
         <button type="button" class="btn btn-primary btn-lg w-100 mt-3"><i class="fa-solid fa-bag-shopping"></i> Comprar</button>
     </div>
     <div class="card-info mt-3 p-5">
     <h3>Descrição</h3>
-    <p>Este código PTCGO resgata Weedle.</p>
+    <p>Este código PTCGO resgata <%= @card.name %>.</p>
     </div>
   </div>
 </div>
