@@ -1,8 +1,11 @@
 class OrdersController < ApplicationController
   def create
-    @order = Order.new(order_params)
+    @card = Card.find(params[:card_id])
+    @order = Order.new
+    @order.user = current_user
+    @order.card = @card
     if @order.save
-      redirect_to order_path(@order)
+      redirect_to root_path
     else
       render :new
     end
@@ -11,6 +14,6 @@ class OrdersController < ApplicationController
   private
 
   def order_params
-    params.require(:order).permit(:user_id, :card_id)
+    params.require(:order).permit(:card_id)
   end
 end
