@@ -28,8 +28,14 @@ class CardsController < ApplicationController
   end
 
   def update
+    db = Pokedb.find(params[:card][:name].to_i)
     @card = Card.find(params[:id])
-    @card.update(card_params)
+    @card.name = db.name
+    @card.category = db.category
+    @card.rarity = db.rarity
+    @card.image = db.image
+    @card.price = params[:card][:price]
+    @card.update(name: @card.name, price: @card.price)
     redirect_to card_path
   end
 
@@ -42,6 +48,6 @@ class CardsController < ApplicationController
   private
 
   def card_params
-    params.require(:card).permit(:price)
+    params.require(:card).permit(:name, :price)
   end
 end
