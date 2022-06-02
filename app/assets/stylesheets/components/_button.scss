@@ -39,3 +39,23 @@
   background: linear-gradient(#147EFF, #0F67DA);
   color: white;
 }
+
+.btn-hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 0px;
+  background-color: rgb(255, 87, 0);
+  color: rgb(255, 255, 255);
+  transition-delay: .3;
+}
+
+.btn-hover:hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 3px solid rgb(255, 87, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 87, 0);
+  transition-delay: .3;
+}
