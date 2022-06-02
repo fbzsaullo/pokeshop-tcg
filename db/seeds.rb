@@ -12,7 +12,7 @@ all_cards.each do |card|
   Card.create(name: name, category: category, rarity: rarity, image: image, price: price, user_id: user_id)
 end
 
-cards_db = Pokemon::Card.where(page: 1, pageSize: 15)
+cards_db = Pokemon::Card.where(q: 'set.name:base')
 
 cards_db.each do |card|
   name = card.name
