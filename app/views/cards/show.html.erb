@@ -18,8 +18,8 @@
           <small><strong>Seller:</strong> <%= @card.user.username %></small>
           <div class="row">
           <h2>US$ <%= @card.price %></h2>
-            <% if @card.user == current_user %>
               <div class="col-md-auto">
+            <% if @card.user == current_user %>
               <%= link_to "Edit", edit_card_path, class: "btn btn-outline-secondary px-2 " %>
               <%= link_to "Delete", card_path(@card), class: "btn btn-outline-danger px-1", method: :delete, data: { confirm: 'Are you sure you want to delete this card?' } %>
               <% end %>
