@@ -36,4 +36,9 @@ grid-gap: 16px;
   margin: 20px auto 0 auto;
   width: 80vw;
 
+  .breadcrumb-link {
+    text-decoration: none;
+    color: gray;
+  }
+
 }

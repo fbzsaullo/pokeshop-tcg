@@ -1,5 +1,5 @@
 <div class="breadcrumb">
-<small><span style="color: gray;">Home ></span> <%= @card.name %></small>
+<small><span><%= link_to "Home", root_path, class: "breadcrumb-link" %> ></span> <%= @card.name %></small>
 </div>
 <div class="container-card-show">
   <div class="card-show">
@@ -18,15 +18,15 @@
           <small><strong>Seller:</strong> <%= @card.user.username %></small>
           <div class="row">
           <h2>US$ <%= @card.price %></h2>
-              <div class="col-md-auto">
-            <% if @card.user == current_user %>
-              <%= link_to "Edit", edit_card_path, class: "btn btn-outline-secondary px-2 " %>
-              <%= link_to "Delete", card_path(@card), class: "btn btn-outline-danger px-1", method: :delete, data: { confirm: 'Are you sure you want to delete this card?' } %>
-              <% end %>
-            </div>
           </div>
       </div>
         <%= link_to 'Comprar', card_orders_path(@card), method: :post, class: "btn btn-primary btn-lg w-100 mt-3" unless @card.user = current_user %>
+            <div class="d-flex justify-content-between gap-2 mt-3">
+            <% if @card.user == current_user %>
+              <%= link_to "Edit", edit_card_path, class: "btn btn-primary w-50" %>
+              <%= link_to "Delete", card_path(@card), class: "btn btn-primary w-50", method: :delete, data: { confirm: 'Are you sure you want to delete this card?' } %>
+              <% end %>
+            </div>
     </div>
     <div class="card-info mt-3 p-5">
     <h3>Descrição</h3>
