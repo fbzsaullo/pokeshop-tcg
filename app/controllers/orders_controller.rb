@@ -4,7 +4,10 @@ class OrdersController < ApplicationController
     @order = Order.new
     @order.user = current_user
     @order.card = @card
+    @card.bought = true
+
     if @order.save
+      @card.save
       redirect_to root_path
     else
       render :new
