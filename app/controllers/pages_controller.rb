@@ -6,4 +6,9 @@ class PagesController < ApplicationController
       @cards = Card.all
     end
   end
+
+  def profile
+    @cards = Card.all
+    @orders = Order.all
+  end
 end
