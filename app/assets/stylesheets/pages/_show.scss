@@ -1,17 +1,19 @@
 .container-card-show {
 width: 80vw;
-margin: 20px auto 50px auto;
+margin: 0 auto;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-gap: 16px;
+background-color: #fff;
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+border: 1px solid rgba(0,0,0,0.1);
+border-radius: 5px;
 }
 
 .card-show {
-  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 5px;
   min-height: 600px;
   width: 100%;
-  background-color: #fff;
+  // background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,11 +26,11 @@ grid-gap: 16px;
 }
 
 .card-info {
-  border: 1px solid rgba(0,0,0,0.1);
+  // border: 1px solid rgba(0,0,0,0.1);
   border-radius: 5px;
   min-height: 150px;
   width: 100%;
-  background-color: #fff;
+  // background-color: #fff;
   // box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -39,6 +41,7 @@ grid-gap: 16px;
   .breadcrumb-link {
     text-decoration: none;
     color: gray;
+    display: block;
   }
 
 }
