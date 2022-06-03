@@ -1,7 +1,6 @@
-<div class="pkm-back">
-  <h2>Edit <%= resource_name.to_s.humanize %></h2>
+<div class="pkm-back py-5">
   <div class="d-flex justify-content-center">
-    <div class="dashed">
+    <div>
       <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
         <%= f.error_notification %>
         <div class="container">
