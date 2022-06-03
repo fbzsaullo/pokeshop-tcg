@@ -1,14 +1,21 @@
 .footer {
-  // background: white;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  display: flex;
+  background: #FAA61F;
   align-items: center;
   justify-content: space-between;
-  height: 50px;
-  color: rgba(0, 0, 0, 0.3);
+  height: 350px;
+  color: #fff;
   width: 100%;
   margin-top: auto;
+  position: relative;
+  z-index: -1;
 }
+
+.footer-container {
+  padding-top: 150px;
+  width: 90vw;
+  margin: 0 auto;
+}
+
 .footer-links {
   display: flex;
   align-items: center;
