@@ -19,3 +19,34 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.banner img {
+  width: 70vw;
+}
+
+@media (min-width: 576px) {
+  .banner img {
+    width: 450px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .banner img {
+    width: 500px;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .banner img {
+    width: 500px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .banner img {
+    width: 500px;
+  }
+}
