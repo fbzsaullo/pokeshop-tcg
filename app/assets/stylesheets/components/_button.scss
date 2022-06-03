@@ -86,3 +86,68 @@
   color: rgb(255, 87, 0);
   transition-delay: .3;
 }
+
+.btn-delete:hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 0px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  transition-delay: .3;
+}
+
+.btn-delete{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 3px solid rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  transition-delay: .3;
+}
+
+.btn-buy{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 0px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(255, 87, 0);
+  color: rgb(255, 255, 255);
+  transition-delay: .3;
+  font-weight: bold;
+}
+
+.btn-buy:hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 3px solid rgb(255, 87, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 87, 0);
+  transition-delay: .3;
+  font-weight: bold;
+}
+
+.btn-edit-card:hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 0px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: rgb(94, 94, 94);
+  color: rgb(255, 255, 255);
+  transition-delay: .3;
+}
+
+.btn-edit-card{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 3px solid rgb(94, 94, 94);
+  background-color: rgb(255, 255, 255);
+  color: rgb(94, 94, 94);
+  transition-delay: .3;
+}
