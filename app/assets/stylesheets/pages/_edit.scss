@@ -1,0 +1,28 @@
+.extra-mg{
+  margin: 0 100px;
+}
+
+.pkm-back{
+  background-image: image-url('pattern.jpg');
+  background-repeat: repeat;
+}
+
+.dashed{
+  border-style: dashed;
+}
+
+.white-back{
+  background-color: rgba(193, 191, 191, 0.449);
+  border-radius: 15px;
+}
+
+#gengar{
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 15px;
+  padding-bottom: 10px;
+    @media (max-width: 764px) {
+      max-width: 80%;
+      margin-left:50px;
+    }
+}
