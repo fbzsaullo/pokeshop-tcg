@@ -156,7 +156,7 @@ GEM
     msgpack (1.5.2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
-    multipart-post (2.1.1)
+    multipart-post (2.2.0)
     nio4r (2.5.8)
     nokogiri (1.13.6-arm64-darwin)
       racc (~> 1.4)
@@ -245,7 +245,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.2.0)
+    selenium-webdriver (4.2.1)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -318,7 +318,7 @@ DEPENDENCIES
   selenium-webdriver (>= 4.0.0.rc1)
   simple_form!
   spring
-  turbolinks (~> 5)
+  turbolinks
   tzinfo-data
   web-console (>= 4.1.0)
   webdrivers
