@@ -65,6 +65,8 @@
 
 .btn-edit:active {
   transform: translateY(-1px);
+}
+
 .btn-hover{
   min-height: 45px;
   width: 125px;
@@ -83,5 +85,4 @@
   background-color: rgb(255, 255, 255);
   color: rgb(255, 87, 0);
   transition-delay: .3;
-}
 }
