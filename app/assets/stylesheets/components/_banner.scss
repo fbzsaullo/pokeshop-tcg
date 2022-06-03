@@ -1,7 +1,11 @@
 .banner {
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 80vh;
+
+  img {
+    width: 45vw;
+  }
 }
 
 .banner h1 {
