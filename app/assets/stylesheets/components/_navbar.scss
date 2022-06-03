@@ -5,14 +5,6 @@
   z-index: 1;
   position: fixed;
   top: 0;
-}
-
-.navbar-lewagon {
-  background-color: transparent;
-  transition: 0.5s background-color ease;
-}
-
-.navbar-lewagon-white {
   background-color: #FAA61F;
 }
 
@@ -25,5 +17,6 @@
 }
 
 .container-fluid {
-  width: 90vw;
+  width: 100vw;
+  padding: 0 200px;
 }
