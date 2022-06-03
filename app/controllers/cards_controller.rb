@@ -28,7 +28,7 @@ class CardsController < ApplicationController
   end
 
   def update
-    db = Pokedb.find(params[:card][:name].to_i)
+    db = Pokedb.find_by(name: params[:card][:name])
     @card = Card.find(params[:id])
     @card.name = db.name
     @card.category = db.category

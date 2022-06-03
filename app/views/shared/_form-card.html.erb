@@ -1,5 +1,5 @@
       <%= simple_form_for @card do |f| %>
-        <%= f.input :name, collection: Pokedb.all, label: 'Card name:', error: 'Please, choose the card name.' %>
+        <%= f.input :name, collection: Pokedb.all.order(name: :asc), label: 'Card name:', error: 'Please, choose the card name.', value_method: :name %>
         <%= f.input :price, label: 'Price:', error: 'Please, input the price.' %>
         <%= f.button :submit,  class: "btn btn-primary" %>
       <% end %>
