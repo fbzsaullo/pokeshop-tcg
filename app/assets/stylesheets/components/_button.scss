@@ -40,6 +40,7 @@
   color: white;
 }
 
+<<<<<<< HEAD
 .btn-edit {
   padding: 1.3em 3em;
   font-size: 12px;
@@ -65,4 +66,24 @@
 
 .btn-edit:active {
   transform: translateY(-1px);
+=======
+.btn-hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 0px;
+  background-color: rgb(255, 87, 0);
+  color: rgb(255, 255, 255);
+  transition-delay: .3;
+}
+
+.btn-hover:hover{
+  min-height: 45px;
+  width: 125px;
+  border-radius: 30px;
+  border: 3px solid rgb(255, 87, 0);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 87, 0);
+  transition-delay: .3;
+>>>>>>> a4c7815b77c478a4af1d74b131fa18b7c6c38e92
 }

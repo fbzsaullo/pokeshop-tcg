@@ -24,11 +24,13 @@
                     input_html: { autocomplete: "new-password" } %>
       </div>
 
-      <div class="form-actions">
-        <%= f.button :submit, "Sign up" %>
+      <div class="form-actions d-flex justify-content-end">
+        <%= f.button :submit, "Sign up", class: "btn-hover mt-4" %>
       </div>
       <% end %>
-      <%= render "devise/shared/links" %>
+      <div class="d-flex justify-content-end gap-1 mt-2" style="font-size: 14px; color:#6c757d">
+        <span >Already have an account? </span> <%= render "devise/shared/links" %>
+      </div>
   </div>
     <div class="auth-splash">
     </div>
