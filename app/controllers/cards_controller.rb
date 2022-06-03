@@ -10,7 +10,7 @@ class CardsController < ApplicationController
 
   def create
     @card = Card.new(card_params)
-    db = Pokedb.find(params[:card][:name].to_i)
+    db = Pokedb.find_by(name: params[:card][:name])
     @card.name = db.name
     @card.category = db.category
     @card.rarity = db.rarity
