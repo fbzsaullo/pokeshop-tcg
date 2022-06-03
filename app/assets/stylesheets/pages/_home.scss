@@ -1,8 +1,9 @@
 // Specific CSS for your home-page
 
-.main-container {
-  width: 75vw;
-  margin: 20px auto;
+.home-container {
+  margin: -100px auto;
+  background-color: #fff;
+  border-radius: 30px;
 }
 
 .card-link {
@@ -11,4 +12,80 @@
   :hover {
     color: black;
   }
+}
+
+.home-cards-container {
+  margin: -100px auto;
+  background-color: #fff;
+  border-radius: 30px;
+  display: grid;
+  grid-gap: 20px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .home-cards-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .home-cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .home-cards-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .home-cards-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.card-display {
+  overflow: hidden;
+  background: white;
+  margin: 0 auto;
+}
+
+.card-display > img {
+  // object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-display h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-display p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-display .card-infos {
+  margin-top: 10px;
+  padding: 0 5px;
+}
+
+.card-display p {
+background-color: gray;
+border-radius: 50px;
+color: #fff;
+text-align: center;
+display: inline-block;
+padding: 0 10px;
 }
