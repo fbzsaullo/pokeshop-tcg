@@ -24,6 +24,7 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .card-trip > img {
@@ -31,7 +32,11 @@
   width: 235px;
   margin: 10px;
   text-align: center;
-  border-radius: 10px;
+  // border-radius: 10px;
+  transition: transform .6s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .card-trip h2 {
