@@ -1,35 +1,35 @@
 .search-form-control {
   position: relative;
-  width: 300px;
+  width: 70vw;
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  .search-form-control {
-    width: 90vh;
-  }
-}
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//   .search-form-control {
+//     width: 90vw;
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .search-form-control {
-    width: 70vh;
-  }
-}
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .search-form-control {
+//     width: 70vw;
+//   }
+// }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .search-form-control {
-    width: 70vh;
-  }
-}
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .search-form-control {
+//     width: 70vw;
+//   }
+// }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  .search-form-control {
-    width: 70vh;
-  }
-}
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//   .search-form-control {
+//     width: 70vh;
+//   }
+// }
 
 .search-form-control .btn {
   position: absolute;

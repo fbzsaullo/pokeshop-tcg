@@ -14,9 +14,14 @@
 
 body {
  height: 100vh;
- background-image: url("pokeball-pb.svg");
- background-repeat: no-repeat;
- background-position: bottom;
- background-attachment: fixed;
- 
+ position: relative;
 }
+
+// #pokeball-bg {
+//   width: 300px;
+//   position: absolute;
+//   bottom: -675px;
+//   right: -150px;
+//   z-index: -1;
+//   overflow-x: hidden;
+// }
