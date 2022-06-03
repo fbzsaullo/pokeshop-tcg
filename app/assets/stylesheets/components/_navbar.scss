@@ -5,6 +5,9 @@
   z-index: 1;
   margin-bottom: -1px;
   background-color: #FAC705;
+  	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .2);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .2);
+	        box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .2);
 }
 
 .navbar-lewagon .navbar-collapse {
