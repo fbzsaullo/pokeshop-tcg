@@ -40,6 +40,33 @@
   color: white;
 }
 
+<<<<<<< HEAD
+.btn-edit {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-edit:hover {
+  background-color: #f50909;
+  box-shadow: 0px 15px 20px rgba(140, 7, 7, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn-edit:active {
+  transform: translateY(-1px);
+=======
 .btn-hover{
   min-height: 45px;
   width: 125px;
@@ -58,4 +85,5 @@
   background-color: rgb(255, 255, 255);
   color: rgb(255, 87, 0);
   transition-delay: .3;
+>>>>>>> a4c7815b77c478a4af1d74b131fa18b7c6c38e92
 }
