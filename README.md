@@ -2,6 +2,7 @@
  <img src="https://res.cloudinary.com/fbzsaullo/image/upload/v1654087716/Pokeshop/Readme_banner_logo_zy5ulc.png" />
 </h1>
 
+
 <h2 align="center">Contributors</h2>
 <h3 align="center"> fbzsaullo</h3>
 <p align="center"> <a href="https://www.github.com/fbzsaullo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="http://www.instagram.com/fabrizio_saullo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/fabriziosaullo" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
